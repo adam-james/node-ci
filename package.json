@@ -1,0 +1,21 @@
+{
+  "name": "node-ci",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
